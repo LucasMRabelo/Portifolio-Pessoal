@@ -349,6 +349,23 @@ img {
 }
 
 /*==================== ABOUT ====================*/
+.about__img{
+  width: 200px;
+  border-radius: .5rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.about__description{
+  text-align: center;
+  margin-bottom: var(--mb-2-5);
+}
+
+.about__info{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: var(--mb-2-5);
+}
 
 
 /*==================== SKILLS ====================*/
