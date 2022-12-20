@@ -398,12 +398,14 @@ img {
   align-items: center;
   margin-bottom: var(--mb-2-5);
   cursor: pointer;
+  margin-top: var(--mb-1-5);
 }
 
 .skills__icon,
 .skills__arrow{
   font-size: 2rem;
-  color: var(--first-color);
+  color: var(--first-color-alt);
+  
 }
 
 .skills__icon{
@@ -427,7 +429,7 @@ img {
 .skills__titles{
   display: flex;
   justify-content: space-between;
-  margin-bottom: --mb-0-5;
+  margin-bottom: (--mb-0-5);
 }
 
 .skills__name{
@@ -451,7 +453,51 @@ img {
 }
 
 .skills__html{
-  width: 60%;
+  width: 90%;
+}
+.skills__css{
+  width: 80%;
+}
+.skills__js{
+  width: 50%;
+}
+.skills__react{
+  width: 30%;
+}
+.skills__php{
+  width: 0%;
+}
+.skills__node{
+  width: 0%;
+}
+.skills__firebase{
+  width: 0%;
+}
+.skills__python{
+  width: 0%;
+}
+.skills__figma{
+  width: 80%;
+}
+.skills__sketch{
+  width: 50%;
+}
+.skills__photoshop{
+  width: 70%;
+}
+
+.skills__close .skills__list{
+  height: 0;
+  overflow: hidden;
+}
+
+.skills__open .skills__list{
+  height: max-content;
+  margin-bottom: var(--mb-0-2-5);
+}
+
+.skills__open .skills__arrow{
+  transform: rotate(-180deg);
 }
 /*==================== QUALIFICATION ====================*/
 
